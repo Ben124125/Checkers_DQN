@@ -47,8 +47,9 @@ class Checkerss:
         col = (From[1] + To[1]) // 2
 
         if self.state.block_come_from != [] or self.state.block_must_go_to != []:
-            if (To == self.state.block_come_from[0]):
+            if (self.state.block_come_from != [] and To == self.state.block_come_from[0]):
                 self.state.board[row, col] = 0
+                self.state.blocked_next = 1
                 self.state.block_come_from = [] 
             else:
                 for i in range(len(self.state.block_must_go_to)):
@@ -90,9 +91,9 @@ class Checkerss:
         # if self.state.blocked:
         #     print('blocked: ',self.state.player)
         
-        block = False
-        if self.state.blocked:
-            block = True
+        # block = False
+        # if self.state.blocked:
+        #     block = True
         # print('o')
         # o = 1
           # if not self.state.blocked:
@@ -105,9 +106,20 @@ class Checkerss:
             
         #     self.state.legal_actions = self.get_all_legal_Actions(self.state)
         #     self.state.switch_players()
-        self.state.switch_players()
-        self.state.legal_actions = self.get_all_legal_Actions(self.state)
+
+        block = False
+        if self.state.blocked and self.state.blocked_next == 1:
+            self.state.blocked_next = 0
+            block = True
         self.state.blocked = block
+        self.state.switch_players()
+
+        self.state.legal_actions = self.get_all_legal_Actions(self.state)
+        # block = False
+        # if self.state.blocked and self.state.blocked_next == 1:
+        #     self.state.blocked_next = 0
+        #     block = True
+        # self.state.blocked = block
         
         # self.get_all_legal_Actions(self.state)
 
@@ -137,7 +149,7 @@ class Checkerss:
         row = (From[0] + To[0]) // 2
         col = (From[1] + To[1]) // 2 
         self.state = state
-        
+       
         if state.board[From] == 2 or state.board[From] == -2:
             moves = self.moveking(state,From)
             # print('moves are: ', moves)
@@ -163,14 +175,17 @@ class Checkerss:
                         self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt-2))
                         if colt + 2 < 8 and state.board[(rowt  - (self.check_number_sign(state.player) *2), colt+2)] == 0:
                           self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt+2))
-                        self.state.blocked = True
+                        if self.state.blocked_next == 1: 
+                            self.state.blocked = True
                     elif (colt < 6 and state.board[rowt - self.check_number_sign(state.player), colt + 1] != self.check_number_sign(state.player) and state.board[rowt - self.check_number_sign(state.player), colt + 1] != 0 and state.board[rowt - (self.check_number_sign(state.player) *2), colt+2] ==0):
                         self.state.block_come_from.append((rowt, colt))
                         # self.state.block_must_go_to = rowt  - (self.check_number_sign(self.state.player) *2), colt+2
                         if colt-2 > 0 and state.board[(rowt  - (self.check_number_sign(state.player) *2), colt-2)] == 0:
                             self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt-2))
                         self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt+2))
-                        self.state.blocked = True
+                        if self.state.blocked_next == 1:  
+                            self.state.blocked = True
+
                 return True
         else:
             return False

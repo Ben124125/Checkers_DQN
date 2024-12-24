@@ -12,6 +12,7 @@ class State:
         self.legal_actions = legal_actions
         self.end_of_game = 0  
         self.blocked = False 
+        self.blocked_next = 0 #
         self.block_must_go_to =[]
         self.block_come_from = []
         self.eat = False
