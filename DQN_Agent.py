@@ -30,6 +30,8 @@ class DQN_Agent:
         # self.train = train
         self.player = player
         self.env = env
+        # self.FROM = ()
+        # self.To = ()
 
     def train (self, train):
           self.train = train
@@ -39,14 +41,14 @@ class DQN_Agent:
               self.DQN.eval()
 
     def get_action (self,state: State, epoch = 0, events= None, train = False):
-        print('state player DQN agent is: ', state.player)
+        # print('state player DQN agent is: ', state.player)
         if state.blocked:
             return ((-1, -1), (-1, -1))
         epsilon = self.epsilon_greedy(epoch)
         rnd = random.random()
         actions = state.legal_actions
         #print('all state legal actions: ', self.env.alllegalActions(state))  
-        print('state DQN legal action: ', state.legal_actions)
+        # print('state DQN legal action: ', state.legal_actions)
         # action_tensor = torch.tensor(actions).reshape(-1, 4)
         # print(action_tensor)
         # action_tensor2 = torch.tensor(actions).reshape(-1)
@@ -82,7 +84,7 @@ class DQN_Agent:
             # time.sleep(2)
             return ((-2,-2),(-2,-2))
         
-        print('max action is: ',actions[max_index])
+        # print('max action is: ',actions[max_index])
         return actions[max_index]
        
 

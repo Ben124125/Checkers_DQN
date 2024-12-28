@@ -21,17 +21,20 @@ class Tester:
             state = env.state
             player = self.player1
             step = 0
-            while env.end_of_game(state,player=player) and step < 75:
+            # while env.end_of_game(state,player=player) and step < 75:
+            end = env.end_of_game(state,player=player)
+            while end[0] == False:
                 action = player.get_action(state=state, train = False)
                 # env.move(action)
                 state,_ = env.next_state(state,action)
                 player = self.switchPlayers(player)
                 step += 1
+                end = env.end_of_game(state,player=player)
                 
             if env.end_of_game(state, player = player):
                 score = state.win
-                if step:
-                    score = env.winSum(state=state)
+                # if step:
+                #     score = env.winSum(state=state)
                 if score > 0:
                     player1_win += 1
                 elif score < 0:

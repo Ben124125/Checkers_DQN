@@ -19,6 +19,7 @@ class Human_Agent:
     def get_action (self, events, state = None):
         
         if state.blocked:
+            print("legal moves blocked: ", self.env.alllegalActions(state))
             return ((-1, -1), (-1, -1))
          
 
@@ -49,7 +50,7 @@ class Human_Agent:
                 # print('state player human agent is: ', state.player)
                 # print('state legal actions: ', self.env.alllegalActions(state))  
                 if self.mode == 1:
-                    # print("available moves: ", self.env.alllegalActions(state))
+                    print("legal moves: ", self.env.alllegalActions(state))
                     if (state.board[row_col]  > 0 and self.player > 0) or (state.board[row_col]<0 and self.player <0):
                         self.FROM = row_col
                         self.mode = 2
@@ -59,7 +60,7 @@ class Human_Agent:
 
                 if self.mode == 2:
                     print('state player human agent is: ', state.player)
-                    print('state legal actions: ', self.env.alllegalActions(state))  
+                    # print('state legal actions: ', self.env.alllegalActions(state))  
                     # print('state legal actions: ', self.env.alllegalActions(state))  
                     # print("available moves: ", )  
                     if self.env.avmoves == []:

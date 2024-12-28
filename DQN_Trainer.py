@@ -53,9 +53,9 @@ def main ():
             action = player1.get_action(state=state, epoch=epoch, train=True)
             after_state, reward = env.next_state(state, action)
             done, win = env.end_of_game(state=after_state, player=player1)
-            if done or step > 74:
-                if step:
-                    win = env.winSum(state=state)
+            if done:
+                # if step:
+                #     win = env.winSum(state=state)
                 replay.push(state, action, reward, after_state, done)
                 break
             after_action = player2.get_action(state=after_state, epoch=epoch)

@@ -27,7 +27,10 @@ class Checkerss:
         #     self.state.switch_players()
             
         if action == ((-1, -1), (-1, -1)):
-            self.switch_players(self.state)
+            # self.switch_players(self.state)
+            self.state.switch_players()
+            self.state.legal_actions = self.get_all_legal_Actions(self.state)
+            self.state.Isblocked = False
             self.state.blocked = False
             self.must_eating = 1
             return   
@@ -46,7 +49,7 @@ class Checkerss:
         row = (From[0] + To[0]) // 2
         col = (From[1] + To[1]) // 2
 
-        if self.state.block_come_from != [] or self.state.block_must_go_to != []:
+        if self.state.block_come_from != [] or self.state.block_must_go_to != [] and not self.state.Isblocked:
             if (self.state.block_come_from != [] and To == self.state.block_come_from[0]):
                 self.state.board[row, col] = 0
                 self.state.blocked_next = 1
@@ -56,6 +59,7 @@ class Checkerss:
                     if (To == self.state.block_must_go_to[i]):
                         self.state.board[row, col] = 0
                         self.state.block_must_go_to = []
+                        break
                 # print('true true black can eat twice')
                
                 
@@ -107,14 +111,19 @@ class Checkerss:
         #     self.state.legal_actions = self.get_all_legal_Actions(self.state)
         #     self.state.switch_players()
 
-        block = False
-        if self.state.blocked and self.state.blocked_next == 1:
-            self.state.blocked_next = 0
-            block = True
-        self.state.blocked = block
+        # block = False
+        # if self.state.blocked and self.state.blocked_next == 1:
+        #     self.state.blocked_next = 0
+        #     block = True
+        # self.state.blocked = block
+        if self.state.Isblocked:
+            self.state.blocked = True
+            
+        # if action != ((-1, -1), (-1, -1)):    
         self.state.switch_players()
 
         self.state.legal_actions = self.get_all_legal_Actions(self.state)
+        # self.state.Isblocked = False
         # block = False
         # if self.state.blocked and self.state.blocked_next == 1:
         #     self.state.blocked_next = 0
@@ -175,35 +184,29 @@ class Checkerss:
                         self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt-2))
                         if colt + 2 < 8 and state.board[(rowt  - (self.check_number_sign(state.player) *2), colt+2)] == 0:
                           self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt+2))
-                        if self.state.blocked_next == 1: 
-                            self.state.blocked = True
+                        # if self.state.blocked_next == 1: 
+                        #     self.state.blocked = True
+                        self.state.Isblocked = True
                     elif (colt < 6 and state.board[rowt - self.check_number_sign(state.player), colt + 1] != self.check_number_sign(state.player) and state.board[rowt - self.check_number_sign(state.player), colt + 1] != 0 and state.board[rowt - (self.check_number_sign(state.player) *2), colt+2] ==0):
                         self.state.block_come_from.append((rowt, colt))
                         # self.state.block_must_go_to = rowt  - (self.check_number_sign(self.state.player) *2), colt+2
                         if colt-2 > 0 and state.board[(rowt  - (self.check_number_sign(state.player) *2), colt-2)] == 0:
                             self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt-2))
                         self.state.block_must_go_to.append((rowt  - (self.check_number_sign(state.player) *2), colt+2))
-                        if self.state.blocked_next == 1:  
-                            self.state.blocked = True
-
+                        # if self.state.blocked_next == 1:  
+                        #     self.state.blocked = True
+                        self.state.Isblocked = True
                 return True
         else:
             return False
 
     
     def next_state (self, state: State, action):
-        # next_state = state.copy()
-        # next_state.board[action] = state.player
-        # next_state.switch_players()
-        # self.end_of_game(next_state,player=state.player)
-        # if next_state.end_of_game == 2:
-        #     reward = 0
-        # else:
-        #     reward = next_state.end_of_game
-        # return next_state, reward
         next_state = state.copy()
         if action == ((-1, -1), (-1, -1)):
             next_state.switch_players()
+            next_state.legal_actions = self.get_all_legal_Actions(next_state)
+            self.state.Isblocked = False
             next_state.blocked = False
             self.must_eating = 1
             return  next_state, 0 
@@ -230,12 +233,24 @@ class Checkerss:
         row = (From[0] + To[0]) // 2
         col = (From[1] + To[1]) // 2
 
-        if next_state.block_come_from != [] and next_state.block_must_go_to != []: # eat twice
-            if (From[0] == state.block_come_from[0] and From[1] == next_state.block_come_from[1] and To[0] == next_state.block_must_go_to[0] and To[1] == next_state.block_must_go_to[1]):
-                # print('true true black can eat twice')
+        # if next_state.block_come_from != [] and next_state.block_must_go_to != []: # eat twice
+        #     if (From[0] == state.block_come_from[0] and From[1] == next_state.block_come_from[1] and To[0] == next_state.block_must_go_to[0] and To[1] == next_state.block_must_go_to[1]):
+        #         # print('true true black can eat twice')
+        #         next_state.board[row, col] = 0
+        #         next_state.block_come_from = [] 
+        #         next_state.block_must_go_to = []
+        if next_state.block_come_from != [] or next_state.block_must_go_to != [] and not next_state.Isblocked:
+            if (next_state.block_come_from != [] and To == next_state.block_come_from[0]):
                 next_state.board[row, col] = 0
+                next_state.blocked_next = 1
                 next_state.block_come_from = [] 
-                next_state.block_must_go_to = []
+            else:
+                for i in range(len(next_state.block_must_go_to)):
+                    if (To == next_state.block_must_go_to[i]):
+                        next_state.board[row, col] = 0
+                        next_state.block_must_go_to = []
+                        break
+
         if rowf - (self.check_number_sign(next_state.player) *2) == rowt and (colf - 2 == colt or colf + 2 == colt): # eat, deleting the player who gonna be eaten
             next_state.board[row, col] = 0  
             next_state.eat = False  
@@ -258,9 +273,16 @@ class Checkerss:
         next_state.board[action[0]] = 0                # moves the eating player 
         
 
-        block = False
-        if next_state.blocked:
-            block = True
+        if next_state.Isblocked:
+            next_state.blocked = True
+            
+        # if action != ((-1, -1), (-1, -1)):    
+        # self.state.switch_players()
+
+        
+        # block = False
+        # if next_state.blocked:
+        #     block = True
 
         next_state.switch_players()
 
@@ -271,9 +293,9 @@ class Checkerss:
                 reward = next_state.eat_num
                 next_state.eat = 0 
         else:
-            reward = next_state.end_of_game * 100
+            reward = next_state.end_of_game * -100
         next_state.legal_actions = self.get_all_legal_Actions(next_state)
-        next_state.blocked = block
+        # next_state.blocked = block
         return next_state, reward    
         
 
