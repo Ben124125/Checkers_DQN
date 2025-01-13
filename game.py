@@ -26,8 +26,9 @@ env.set_init_state()
 
 
 player2 = Human_Agent(player=-1, env=env, graphics=graphics)
-
-player1 = DQN_Agent(player=1, env=env)
+# path = "Data\DQN_PARAM_30KK.pth"
+path = "Data\_SGD_DQN_PARAM_10KK.pth"
+player1 = DQN_Agent(player=1, env=env,parametes_path=path, train=False)
 print('<----------------------------------------------------------------------------------------------------------------->>>>>>>>')
 
 # player2 =  DQN_Agent(player=-1, env=env)
@@ -77,12 +78,12 @@ def main():
                     print("White has won!")
                 else:
                     print("Draw")    
-                # time.sleep(3)
+                time.sleep(3)
                 run = False
                 print(f'step b: {step_b}')
                 print(f'step w: {step_w}')
                 ######### reset: init state + player = 1
-            # time.sleep(0.3)
+            # time.sleep(1)
         graphics(env.state)
           
         pygame.display.update()

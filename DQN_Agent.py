@@ -43,7 +43,8 @@ class DQN_Agent:
     def get_action (self,state: State, epoch = 0, events= None, train = False):
         # print('state player DQN agent is: ', state.player)
         if state.blocked:
-            return ((-1, -1), (-1, -1))
+            # state.legal_actions = ((-1, -1), (-1, -1))
+            return [(-1, -1), (-1, -1)]
         epsilon = self.epsilon_greedy(epoch)
         rnd = random.random()
         actions = state.legal_actions
@@ -60,9 +61,13 @@ class DQN_Agent:
         if actions_lst == []:
             # print('player is: ', self.player)
             # time.sleep(2)
-            return ((-2,-2),(-2,-2))
+            return [-2,-2, -2,-2]
         if train and rnd < epsilon:
-            return random.choice(actions)
+            if state.Isblocked:
+                selected_piece= random.choice(state.block_come_from)
+            else:
+                selected_piece =  random.choice(actions)
+            return selected_piece
         
         state_tensor = state.toTensor()
         # action_np = np.array(actions)
@@ -82,7 +87,7 @@ class DQN_Agent:
         if actions == []:
             # print('player is: ', self.player)
             # time.sleep(2)
-            return ((-2,-2),(-2,-2))
+            return [(-2,-2), (-2,-2)]
         
         # print('max action is: ',actions[max_index])
         return actions[max_index]
@@ -99,7 +104,7 @@ class DQN_Agent:
         for i, state in enumerate(boards_tensor):
             if dones[i].item():
                 # actions_np = np.array((-1,-1,-1,-1))
-                actions.append([-1,-1,-1,-1])
+                actions.append([-2,-2,-2,-2])
             else:
                 actions.append(self.get_action(State.tensorToState(boards_tensor[i], actions_tensor[i],player = self.player), train=True)) #SARSA = True / Q-learning = False
         actions_tensor = torch.tensor(actions).reshape(-1, 4)

@@ -1,0 +1,1693 @@
+
+epoch:  1
+win is blackp: 80
+
+epoch:  2
+win is blackp: 60
+
+epoch:  3
+win is whitep: 66
+
+epoch:  4
+win is blackp: 41
+
+epoch:  5
+win is blackp: 77
+
+epoch:  6
+win is blackp: 48
+
+epoch:  7
+win is whitep: 49
+
+epoch:  8
+win is blackp: 55
+
+epoch:  9
+win is blackp: 54
+
+epoch:  10
+win is blackp: 43
+
+epoch:  11
+win is whitep: 89
+
+epoch:  12
+win is blackp: 33
+
+epoch:  13
+win is blackp: 51
+
+epoch:  14
+win is whitep: 57
+
+epoch:  15
+win is blackp: 25
+
+epoch:  16
+win is blackp: 57
+
+epoch:  17
+win is whitep: 56
+
+epoch:  18
+win is blackp: 49
+
+epoch:  19
+win is whitep: 30
+
+epoch:  20
+win is blackp: 43
+
+epoch:  21
+win is whitep: 25
+
+epoch:  22
+win is whitep: 25
+
+epoch:  23
+win is blackp: 52
+
+epoch:  24
+win is blackp: 62
+
+epoch:  25
+win is whitep: 58
+
+epoch:  26
+win is blackp: 28
+
+epoch:  27
+win is whitep: 49
+
+epoch:  28
+win is blackp: 65
+
+epoch:  29
+win is blackp: 24
+
+epoch:  30
+win is whitep: 25
+
+epoch:  31
+win is whitep: 65
+
+epoch:  32
+win is blackp: 63
+
+epoch:  33
+win is blackp: 35
+
+epoch:  34
+win is whitep: 80
+
+epoch:  35
+win is blackp: 24
+
+epoch:  36
+win is blackp: 40
+
+epoch:  37
+win is blackp: 59
+
+epoch:  38
+win is blackp: 48
+
+epoch:  39
+win is whitep: 61
+
+epoch:  40
+win is whitep: 81
+
+epoch:  41
+win is blackp: 67
+
+epoch:  42
+win is whitep: 22
+
+epoch:  43
+win is blackp: 22
+
+epoch:  44
+win is whitep: 62
+
+epoch:  45
+win is whitep: 71
+
+epoch:  46
+win is blackp: 44
+
+epoch:  47
+win is whitep: 43
+
+epoch:  48
+win is whitep: 82
+
+epoch:  49
+win is blackp: 61
+
+epoch:  50
+win is blackp: 46
+
+epoch:  51
+win is blackp: 36
+
+epoch:  52
+win is whitep: 40
+
+epoch:  53
+win is whitep: 44
+
+epoch:  54
+win is blackp: 49
+
+epoch:  55
+win is blackp: 27
+
+epoch:  56
+win is whitep: 40
+
+epoch:  57
+win is blackp: 64
+
+epoch:  58
+win is whitep: 26
+
+epoch:  59
+win is whitep: 43
+
+epoch:  60
+win is whitep: 59
+
+epoch:  61
+win is whitep: 32
+
+epoch:  62
+win is blackp: 58
+
+epoch:  63
+win is blackp: 57
+
+epoch:  64
+win is whitep: 37
+
+epoch:  65
+win is blackp: 52
+
+epoch:  66
+win is whitep: 71
+
+epoch:  67
+win is blackp: 74
+
+epoch:  68
+win is whitep: 36
+
+epoch:  69
+win is whitep: 36
+
+epoch:  70
+win is blackp: 48
+
+epoch:  71
+win is whitep: 28
+
+epoch:  72
+win is whitep: 54
+
+epoch:  73
+win is whitep: 39
+
+epoch:  74
+win is whitep: 44
+
+epoch:  75
+win is blackp: 40
+
+epoch:  76
+win is whitep: 50
+
+epoch:  77
+win is whitep: 25
+
+epoch:  78
+win is whitep: 95
+
+epoch:  79
+win is blackp: 33
+
+epoch:  80
+win is whitep: 36
+
+epoch:  81
+win is blackp: 71
+
+epoch:  82
+win is whitep: 29
+
+epoch:  83
+win is blackp: 56
+
+epoch:  84
+win is whitep: 59
+
+epoch:  85
+win is whitep: 55
+
+epoch:  86
+win is blackp: 49
+
+epoch:  87
+win is blackp: 83
+
+epoch:  88
+win is blackp: 58
+
+epoch:  89
+win is whitep: 74
+
+epoch:  90
+win is blackp: 77
+
+epoch:  91
+win is whitep: 40
+
+epoch:  92
+win is blackp: 40
+
+epoch:  93
+win is whitep: 35
+
+epoch:  94
+win is blackp: 41
+
+epoch:  95
+win is whitep: 67
+
+epoch:  96
+win is whitep: 27
+
+epoch:  97
+win is whitep: 64
+
+epoch:  98
+win is blackp: 80
+
+epoch:  99
+win is blackp: 42
+
+epoch:  100
+win is whitep: 22
+
+epoch:  101
+win is blackp: 58
+
+epoch:  102
+win is blackp: 43
+
+epoch:  103
+win is whitep: 88
+
+epoch:  104
+win is whitep: 34
+
+epoch:  105
+win is blackp: 40
+
+epoch:  106
+win is blackp: 40
+
+epoch:  107
+win is whitep: 45
+
+epoch:  108
+win is blackp: 83
+
+epoch:  109
+win is whitep: 43
+
+epoch:  110
+win is whitep: 67
+
+epoch:  111
+win is whitep: 44
+
+epoch:  112
+win is blackp: 35
+
+epoch:  113
+win is whitep: 35
+
+epoch:  114
+win is blackp: 60
+
+epoch:  115
+win is blackp: 56
+
+epoch:  116
+win is whitep: 72
+
+epoch:  117
+win is blackp: 91
+
+epoch:  118
+win is whitep: 32
+
+epoch:  119
+win is whitep: 28
+
+epoch:  120
+win is whitep: 45
+
+epoch:  121
+win is whitep: 53
+
+epoch:  122
+win is whitep: 25
+
+epoch:  123
+win is whitep: 85
+
+epoch:  124
+win is whitep: 48
+
+epoch:  125
+win is whitep: 44
+
+epoch:  126
+win is whitep: 63
+
+epoch:  127
+win is whitep: 36
+
+epoch:  128
+win is whitep: 28
+
+epoch:  129
+win is whitep: 39
+
+epoch:  130
+win is whitep: 32
+
+epoch:  131
+win is blackp: 83
+
+epoch:  132
+win is blackp: 49
+
+epoch:  133
+win is blackp: 46
+
+epoch:  134
+win is blackp: 46
+
+epoch:  135
+win is blackp: 28
+
+epoch:  136
+win is whitep: 41
+
+epoch:  137
+win is whitep: 62
+
+epoch:  138
+win is whitep: 25
+
+epoch:  139
+win is blackp: 35
+
+epoch:  140
+win is whitep: 64
+
+epoch:  141
+win is whitep: 46
+
+epoch:  142
+win is blackp: 49
+
+epoch:  143
+win is blackp: 71
+
+epoch:  144
+win is blackp: 41
+
+epoch:  145
+win is blackp: 31
+
+epoch:  146
+win is blackp: 29
+
+epoch:  147
+win is blackp: 43
+
+epoch:  148
+win is blackp: 23
+
+epoch:  149
+win is whitep: 46
+
+epoch:  150
+win is blackp: 33
+
+epoch:  151
+win is whitep: 26
+
+epoch:  152
+win is blackp: 68
+
+epoch:  153
+win is blackp: 32
+
+epoch:  154
+win is whitep: 73
+
+epoch:  155
+win is whitep: 34
+
+epoch:  156
+win is whitep: 27
+
+epoch:  157
+win is blackp: 50
+
+epoch:  158
+win is blackp: 54
+
+epoch:  159
+win is whitep: 24
+
+epoch:  160
+win is whitep: 43
+
+epoch:  161
+win is whitep: 27
+
+epoch:  162
+win is blackp: 32
+
+epoch:  163
+win is blackp: 51
+
+epoch:  164
+win is blackp: 22
+
+epoch:  165
+win is whitep: 39
+
+epoch:  166
+win is whitep: 31
+
+epoch:  167
+win is blackp: 49
+
+epoch:  168
+win is whitep: 37
+
+epoch:  169
+win is whitep: 27
+
+epoch:  170
+win is whitep: 37
+
+epoch:  171
+win is blackp: 28
+
+epoch:  172
+win is whitep: 29
+
+epoch:  173
+win is whitep: 42
+
+epoch:  174
+win is blackp: 34
+
+epoch:  175
+win is blackp: 58
+
+epoch:  176
+win is whitep: 94
+
+epoch:  177
+win is blackp: 81
+
+epoch:  178
+win is whitep: 122
+
+epoch:  179
+win is blackp: 62
+
+epoch:  180
+win is blackp: 84
+
+epoch:  181
+win is blackp: 47
+
+epoch:  182
+win is blackp: 44
+
+epoch:  183
+win is blackp: 35
+
+epoch:  184
+win is blackp: 29
+
+epoch:  185
+win is whitep: 60
+
+epoch:  186
+win is blackp: 30
+
+epoch:  187
+win is blackp: 21
+
+epoch:  188
+win is whitep: 28
+
+epoch:  189
+win is blackp: 59
+
+epoch:  190
+win is whitep: 55
+
+epoch:  191
+win is blackp: 25
+
+epoch:  192
+win is whitep: 31
+
+epoch:  193
+win is blackp: 66
+
+epoch:  194
+win is whitep: 74
+
+epoch:  195
+win is blackp: 74
+
+epoch:  196
+win is whitep: 64
+
+epoch:  197
+win is whitep: 38
+
+epoch:  198
+win is whitep: 29
+
+epoch:  199
+win is blackp: 75
+
+epoch:  200
+win is whitep: 35
+
+epoch:  201
+win is whitep: 60
+
+epoch:  202
+win is blackp: 45
+
+epoch:  203
+win is whitep: 46
+
+epoch:  204
+win is whitep: 58
+
+epoch:  205
+win is whitep: 40
+
+epoch:  206
+win is blackp: 42
+
+epoch:  207
+win is blackp: 55
+
+epoch:  208
+win is blackp: 57
+
+epoch:  209
+win is whitep: 52
+
+epoch:  210
+win is whitep: 27
+
+epoch:  211
+win is blackp: 23
+
+epoch:  212
+win is blackp: 50
+
+epoch:  213
+win is blackp: 49
+
+epoch:  214
+win is blackp: 41
+
+epoch:  215
+win is blackp: 25
+
+epoch:  216
+win is whitep: 38
+
+epoch:  217
+win is blackp: 26
+
+epoch:  218
+win is whitep: 51
+
+epoch:  219
+win is blackp: 45
+
+epoch:  220
+win is whitep: 37
+
+epoch:  221
+win is blackp: 45
+
+epoch:  222
+win is whitep: 57
+
+epoch:  223
+win is blackp: 57
+
+epoch:  224
+win is blackp: 64
+
+epoch:  225
+win is blackp: 48
+
+epoch:  226
+win is blackp: 61
+
+epoch:  227
+win is blackp: 63
+
+epoch:  228
+win is blackp: 62
+
+epoch:  229
+win is whitep: 44
+
+epoch:  230
+win is blackp: 63
+
+epoch:  231
+win is whitep: 46
+
+epoch:  232
+win is whitep: 27
+
+epoch:  233
+win is blackp: 50
+
+epoch:  234
+win is blackp: 55
+
+epoch:  235
+win is whitep: 38
+
+epoch:  236
+win is whitep: 51
+
+epoch:  237
+win is whitep: 92
+
+epoch:  238
+win is whitep: 62
+
+epoch:  239
+win is blackp: 34
+
+epoch:  240
+win is blackp: 56
+
+epoch:  241
+win is blackp: 41
+
+epoch:  242
+win is whitep: 52
+
+epoch:  243
+win is blackp: 26
+
+epoch:  244
+win is blackp: 41
+
+epoch:  245
+win is blackp: 78
+
+epoch:  246
+win is whitep: 40
+
+epoch:  247
+win is blackp: 38
+
+epoch:  248
+win is blackp: 26
+
+epoch:  249
+win is blackp: 60
+
+epoch:  250
+win is blackp: 54
+
+epoch:  251
+win is whitep: 35
+
+epoch:  252
+win is blackp: 49
+
+epoch:  253
+win is blackp: 30
+
+epoch:  254
+win is whitep: 61
+
+epoch:  255
+win is blackp: 82
+
+epoch:  256
+win is blackp: 38
+
+epoch:  257
+win is whitep: 60
+
+epoch:  258
+win is whitep: 24
+
+epoch:  259
+win is whitep: 46
+
+epoch:  260
+win is whitep: 34
+
+epoch:  261
+win is blackp: 52
+
+epoch:  262
+win is blackp: 26
+
+epoch:  263
+win is whitep: 67
+
+epoch:  264
+win is whitep: 55
+
+epoch:  265
+win is whitep: 33
+
+epoch:  266
+win is blackp: 61
+
+epoch:  267
+win is blackp: 26
+
+epoch:  268
+win is blackp: 76
+
+epoch:  269
+win is whitep: 75
+
+epoch:  270
+win is whitep: 56
+
+epoch:  271
+win is whitep: 38
+
+epoch:  272
+win is whitep: 53
+
+epoch:  273
+win is whitep: 59
+
+epoch:  274
+win is blackp: 44
+
+epoch:  275
+win is blackp: 62
+
+epoch:  276
+win is blackp: 80
+
+epoch:  277
+win is whitep: 32
+
+epoch:  278
+win is blackp: 37
+
+epoch:  279
+win is whitep: 32
+
+epoch:  280
+win is whitep: 36
+
+epoch:  281
+win is whitep: 24
+
+epoch:  282
+win is whitep: 55
+
+epoch:  283
+win is blackp: 28
+
+epoch:  284
+win is blackp: 30
+
+epoch:  285
+win is blackp: 77
+
+epoch:  286
+win is blackp: 47
+
+epoch:  287
+win is whitep: 39
+
+epoch:  288
+win is blackp: 29
+
+epoch:  289
+win is blackp: 46
+
+epoch:  290
+win is blackp: 60
+
+epoch:  291
+win is whitep: 30
+
+epoch:  292
+win is blackp: 24
+
+epoch:  293
+win is blackp: 80
+
+epoch:  294
+win is whitep: 73
+
+epoch:  295
+win is blackp: 27
+
+epoch:  296
+win is blackp: 57
+
+epoch:  297
+win is whitep: 30
+
+epoch:  298
+win is whitep: 58
+
+epoch:  299
+win is blackp: 75
+
+epoch:  300
+win is blackp: 39
+
+epoch:  301
+win is whitep: 45
+
+epoch:  302
+win is whitep: 23
+
+epoch:  303
+win is blackp: 23
+
+epoch:  304
+win is blackp: 41
+
+epoch:  305
+win is blackp: 33
+
+epoch:  306
+win is whitep: 29
+
+epoch:  307
+win is blackp: 36
+
+epoch:  308
+win is blackp: 45
+
+epoch:  309
+win is whitep: 28
+
+epoch:  310
+win is whitep: 61
+
+epoch:  311
+win is blackp: 64
+
+epoch:  312
+win is blackp: 40
+
+epoch:  313
+win is blackp: 25
+
+epoch:  314
+win is whitep: 37
+
+epoch:  315
+win is blackp: 25
+
+epoch:  316
+win is blackp: 49
+
+epoch:  317
+win is blackp: 78
+
+epoch:  318
+win is blackp: 39
+
+epoch:  319
+win is whitep: 58
+
+epoch:  320
+win is whitep: 38
+
+epoch:  321
+win is blackp: 48
+
+epoch:  322
+win is blackp: 24
+
+epoch:  323
+win is blackp: 46
+
+epoch:  324
+win is blackp: 37
+
+epoch:  325
+win is blackp: 30
+
+epoch:  326
+win is whitep: 92
+
+epoch:  327
+win is blackp: 82
+
+epoch:  328
+win is whitep: 43
+
+epoch:  329
+win is whitep: 35
+
+epoch:  330
+win is blackp: 68
+
+epoch:  331
+win is whitep: 95
+
+epoch:  332
+win is blackp: 23
+
+epoch:  333
+win is whitep: 40
+
+epoch:  334
+win is blackp: 39
+
+epoch:  335
+win is whitep: 65
+
+epoch:  336
+win is whitep: 35
+
+epoch:  337
+win is whitep: 47
+
+epoch:  338
+win is whitep: 65
+
+epoch:  339
+win is whitep: 63
+
+epoch:  340
+win is blackp: 48
+
+epoch:  341
+win is whitep: 47
+
+epoch:  342
+win is blackp: 38
+
+epoch:  343
+win is blackp: 57
+
+epoch:  344
+win is blackp: 24
+
+epoch:  345
+win is whitep: 34
+
+epoch:  346
+win is blackp: 38
+
+epoch:  347
+win is whitep: 46
+
+epoch:  348
+win is blackp: 51
+
+epoch:  349
+win is blackp: 41
+
+epoch:  350
+win is whitep: 31
+
+epoch:  351
+win is blackp: 33
+
+epoch:  352
+win is whitep: 38
+
+epoch:  353
+win is whitep: 28
+
+epoch:  354
+win is whitep: 113
+
+epoch:  355
+win is whitep: 35
+
+epoch:  356
+win is whitep: 23
+
+epoch:  357
+win is blackp: 61
+
+epoch:  358
+win is whitep: 42
+
+epoch:  359
+win is blackp: 30
+
+epoch:  360
+win is blackp: 42
+
+epoch:  361
+win is whitep: 43
+
+epoch:  362
+win is whitep: 40
+
+epoch:  363
+win is whitep: 72
+
+epoch:  364
+win is blackp: 28
+
+epoch:  365
+win is whitep: 48
+
+epoch:  366
+win is blackp: 66
+
+epoch:  367
+win is blackp: 86
+
+epoch:  368
+win is whitep: 44
+
+epoch:  369
+win is whitep: 37
+
+epoch:  370
+win is blackp: 34
+
+epoch:  371
+win is whitep: 53
+
+epoch:  372
+win is whitep: 38
+
+epoch:  373
+win is whitep: 48
+
+epoch:  374
+win is whitep: 68
+
+epoch:  375
+win is blackp: 43
+
+epoch:  376
+win is whitep: 32
+
+epoch:  377
+win is blackp: 69
+
+epoch:  378
+win is whitep: 43
+
+epoch:  379
+win is whitep: 68
+
+epoch:  380
+win is blackp: 56
+
+epoch:  381
+win is blackp: 59
+
+epoch:  382
+win is blackp: 54
+
+epoch:  383
+win is blackp: 28
+
+epoch:  384
+win is whitep: 30
+
+epoch:  385
+win is blackp: 48
+
+epoch:  386
+win is blackp: 29
+
+epoch:  387
+win is blackp: 28
+
+epoch:  388
+win is blackp: 24
+
+epoch:  389
+win is blackp: 38
+
+epoch:  390
+win is blackp: 56
+
+epoch:  391
+win is blackp: 22
+
+epoch:  392
+win is blackp: 38
+
+epoch:  393
+win is whitep: 77
+
+epoch:  394
+win is whitep: 25
+
+epoch:  395
+win is blackp: 62
+
+epoch:  396
+win is blackp: 64
+
+epoch:  397
+win is whitep: 35
+
+epoch:  398
+win is whitep: 81
+
+epoch:  399
+win is blackp: 91
+
+epoch:  400
+win is whitep: 44
+
+epoch:  401
+win is whitep: 42
+
+epoch:  402
+win is blackp: 49
+
+epoch:  403
+win is blackp: 29
+
+epoch:  404
+win is whitep: 56
+
+epoch:  405
+win is blackp: 44
+
+epoch:  406
+win is whitep: 79
+
+epoch:  407
+win is blackp: 40
+
+epoch:  408
+win is blackp: 27
+
+epoch:  409
+win is blackp: 31
+
+epoch:  410
+win is whitep: 69
+
+epoch:  411
+win is blackp: 42
+
+epoch:  412
+win is whitep: 94
+
+epoch:  413
+win is blackp: 40
+
+epoch:  414
+win is whitep: 29
+
+epoch:  415
+win is blackp: 57
+
+epoch:  416
+win is whitep: 66
+
+epoch:  417
+win is blackp: 57
+
+epoch:  418
+win is whitep: 52
+
+epoch:  419
+win is blackp: 64
+
+epoch:  420
+win is blackp: 39
+
+epoch:  421
+win is blackp: 87
+
+epoch:  422
+win is whitep: 83
+
+epoch:  423
+win is whitep: 35
+
+epoch:  424
+win is whitep: 27
+
+epoch:  425
+win is blackp: 41
+
+epoch:  426
+win is whitep: 26
+
+epoch:  427
+win is whitep: 78
+
+epoch:  428
+win is blackp: 44
+
+epoch:  429
+win is whitep: 48
+
+epoch:  430
+win is whitep: 27
+
+epoch:  431
+win is whitep: 36
+
+epoch:  432
+win is whitep: 54
+
+epoch:  433
+win is whitep: 28
+
+epoch:  434
+win is blackp: 58
+
+epoch:  435
+win is blackp: 27
+
+epoch:  436
+win is whitep: 34
+
+epoch:  437
+win is blackp: 36
+
+epoch:  438
+win is blackp: 61
+
+epoch:  439
+win is blackp: 43
+
+epoch:  440
+win is blackp: 30
+
+epoch:  441
+win is whitep: 51
+
+epoch:  442
+win is whitep: 62
+
+epoch:  443
+win is whitep: 63
+
+epoch:  444
+win is blackp: 41
+
+epoch:  445
+win is whitep: 41
+
+epoch:  446
+win is blackp: 31
+
+epoch:  447
+win is whitep: 49
+
+epoch:  448
+win is blackp: 43
+
+epoch:  449
+win is blackp: 40
+
+epoch:  450
+win is whitep: 75
+
+epoch:  451
+win is blackp: 55
+
+epoch:  452
+win is blackp: 56
+
+epoch:  453
+win is whitep: 51
+
+epoch:  454
+win is whitep: 45
+
+epoch:  455
+win is whitep: 50
+
+epoch:  456
+win is blackp: 31
+
+epoch:  457
+win is whitep: 32
+
+epoch:  458
+win is whitep: 47
+
+epoch:  459
+win is whitep: 61
+
+epoch:  460
+win is blackp: 40
+
+epoch:  461
+win is whitep: 42
+
+epoch:  462
+win is blackp: 31
+
+epoch:  463
+win is blackp: 43
+
+epoch:  464
+win is whitep: 72
+
+epoch:  465
+win is whitep: 40
+
+epoch:  466
+win is blackp: 37
+
+epoch:  467
+win is whitep: 54
+
+epoch:  468
+win is blackp: 80
+
+epoch:  469
+win is whitep: 30
+
+epoch:  470
+win is whitep: 29
+
+epoch:  471
+win is whitep: 57
+
+epoch:  472
+win is whitep: 26
+
+epoch:  473
+win is whitep: 43
+
+epoch:  474
+win is whitep: 47
+
+epoch:  475
+win is whitep: 41
+
+epoch:  476
+win is blackp: 49
+
+epoch:  477
+win is blackp: 89
+
+epoch:  478
+win is whitep: 38
+
+epoch:  479
+win is blackp: 53
+
+epoch:  480
+win is whitep: 29
+
+epoch:  481
+win is blackp: 59
+
+epoch:  482
+win is whitep: 26
+
+epoch:  483
+win is whitep: 26
+
+epoch:  484
+win is whitep: 42
+
+epoch:  485
+win is whitep: 24
+
+epoch:  486
+win is blackp: 36
+
+epoch:  487
+win is whitep: 29
+
+epoch:  488
+win is blackp: 44
+
+epoch:  489
+win is blackp: 37
+
+epoch:  490
+win is whitep: 54
+
+epoch:  491
+win is whitep: 50
+
+epoch:  492
+win is blackp: 29
+
+epoch:  493
+win is blackp: 28
+
+epoch:  494
+win is blackp: 32
+
+epoch:  495
+win is whitep: 69
+
+epoch:  496
+win is whitep: 38
+
+epoch:  497
+win is whitep: 26
+
+epoch:  498
+win is whitep: 33
+
+epoch:  499
+win is blackp: 65
+
+epoch:  500
+win is blackp: 77
+epoch: 500 loss: 156.48727416992188 score: [254, 246, 0]
+
+epoch:  501
+win is blackp: 68
+
+epoch:  502
+win is blackp: 55
+
+epoch:  503
+win is whitep: 33
+
+epoch:  504
+win is whitep: 47
+
+epoch:  505
+win is blackp: 59
+
+epoch:  506
+win is whitep: 44
+
+epoch:  507
+win is whitep: 38
+
+epoch:  508
+win is blackp: 51
+
+epoch:  509
+win is blackp: 28
+
+epoch:  510
+win is blackp: 80
+
+epoch:  511
+win is whitep: 33
+
+epoch:  512
+win is blackp: 22
+
+epoch:  513
+win is blackp: 39
+
+epoch:  514
+win is whitep: 49
+
+epoch:  515
+win is whitep: 57
+
+epoch:  516
+win is blackp: 47
+
+epoch:  517
+win is whitep: 27
+
+epoch:  518
+win is blackp: 53
+
+epoch:  519
+win is blackp: 23
+
+epoch:  520
+win is whitep: 59
+
+epoch:  521
+win is blackp: 37
+
+epoch:  522
+win is blackp: 72
+
+epoch:  523
+win is whitep: 45
+
+epoch:  524
+win is whitep: 53
+
+epoch:  525
+win is whitep: 55
+
+epoch:  526
+win is blackp: 52
+
+epoch:  527
+win is whitep: 40
+
+epoch:  528
+win is blackp: 27
+
+epoch:  529
+win is blackp: 28
+
+epoch:  530
+win is whitep: 47
+
+epoch:  531
+win is blackp: 23
+
+epoch:  532
+win is blackp: 63
+
+epoch:  533
+win is whitep: 83
+
+epoch:  534
+win is whitep: 48
+
+epoch:  535
+win is blackp: 40
+
+epoch:  536
+win is blackp: 37
+
+epoch:  537
+win is whitep: 36
+
+epoch:  538
+win is blackp: 53
+
+epoch:  539
+win is whitep: 38
+
+epoch:  540
+win is blackp: 61
+
+epoch:  541
+win is blackp: 31
+
+epoch:  542
+win is whitep: 90
+
+epoch:  543
+win is blackp: 80
+
+epoch:  544
+win is whitep: 64
+
+epoch:  545
+win is whitep: 74
+
+epoch:  546
+win is whitep: 26
+
+epoch:  547
+win is blackp: 46
+
+epoch:  548
+win is blackp: 52
+
+epoch:  549
+win is blackp: 34
+
+epoch:  550
+win is blackp: 34
+
+epoch:  551
+win is whitep: 61
+
+epoch:  552
+win is blackp: 41
+
+epoch:  553
+win is whitep: 95
+
+epoch:  554
+win is whitep: 70
+
+epoch:  555
+win is blackp: 37
+
+epoch:  556
+win is blackp: 51
+
+epoch:  557
+win is whitep: 23
+
+epoch:  558
+win is whitep: 43
+
+epoch:  559
+win is blackp: 77
+
+epoch:  560
+win is blackp: 28
+
+epoch:  561
+win is whitep: 28
+
+epoch:  562
+win is whitep: 30
+
+epoch:  563
+win is whitep: 50
+
+epoch:  564
+			      step: 53

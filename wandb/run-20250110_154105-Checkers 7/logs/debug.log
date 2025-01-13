@@ -1,0 +1,23 @@
+2025-01-10 15:41:05,603 INFO    MainThread:31396 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2025-01-10 15:41:05,603 INFO    MainThread:31396 [wandb_setup.py:_flush():68] Configure stats pid to 31396
+2025-01-10 15:41:05,603 INFO    MainThread:31396 [wandb_setup.py:_flush():68] Loading settings from C:\Users\ся\.config\wandb\settings
+2025-01-10 15:41:05,603 INFO    MainThread:31396 [wandb_setup.py:_flush():68] Loading settings from D:\Checkers_Random\pygame1_n2\wandb\settings
+2025-01-10 15:41:05,607 INFO    MainThread:31396 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-10 15:41:05,607 INFO    MainThread:31396 [wandb_init.py:_log_setup():528] Logging user logs to D:\Checkers_Random\pygame1_n2\wandb\run-20250110_154105-Checkers 7\logs\debug.log
+2025-01-10 15:41:05,607 INFO    MainThread:31396 [wandb_init.py:_log_setup():529] Logging internal logs to D:\Checkers_Random\pygame1_n2\wandb\run-20250110_154105-Checkers 7\logs\debug-internal.log
+2025-01-10 15:41:05,607 INFO    MainThread:31396 [wandb_init.py:init():644] calling init triggers
+2025-01-10 15:41:05,607 INFO    MainThread:31396 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'name': 'Checkers 1', 'checkpoint': 'Data\\DQN_PARAM_30KK.pth', 'learning_rate': 1e-05, 'architecture': 'FNN 128, 258, 512, 128, 64, 4', 'Schedule': '5000, 10000, 15000 gamma=0.99', 'epochs': 30000, 'start_epoch': 1, 'decay': 5000, 'gamma': 0.99, 'batch_size': 64, 'C': 3000}
+2025-01-10 15:41:05,607 INFO    MainThread:31396 [wandb_init.py:init():680] starting backend
+2025-01-10 15:41:05,608 INFO    MainThread:31396 [wandb_init.py:init():684] sending inform_init request
+2025-01-10 15:41:05,621 INFO    MainThread:31396 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-10 15:41:05,622 INFO    MainThread:31396 [wandb_init.py:init():697] backend started and connected
+2025-01-10 15:41:05,625 INFO    MainThread:31396 [wandb_init.py:init():790] updated telemetry
+2025-01-10 15:41:05,659 INFO    MainThread:31396 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2025-01-10 15:41:06,322 INFO    MainThread:31396 [wandb_init.py:init():874] starting run threads in backend
+2025-01-10 15:41:06,476 INFO    MainThread:31396 [wandb_run.py:_console_start():2374] atexit reg
+2025-01-10 15:41:06,476 INFO    MainThread:31396 [wandb_run.py:_redirect():2224] redirect: wrap_raw
+2025-01-10 15:41:06,476 INFO    MainThread:31396 [wandb_run.py:_redirect():2289] Wrapping output streams.
+2025-01-10 15:41:06,477 INFO    MainThread:31396 [wandb_run.py:_redirect():2314] Redirects installed.
+2025-01-10 15:41:06,481 INFO    MainThread:31396 [wandb_init.py:init():916] run started, returning control to user process
+2025-01-10 18:30:13,206 WARNING MsgRouterThr:31396 [router.py:message_loop():75] message_loop has been closed

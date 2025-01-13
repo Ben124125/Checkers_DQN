@@ -19,17 +19,30 @@ class Random_Agent:
     def get_action(self, events = None, epoch = None, state = None, train = None) : 
 
         if state.blocked:
-            return ((-1, -1), (-1, -1))
+            # state.legal_actions = ((-1, -1), (-1, -1))
+            return [(-1, -1), (-1, -1)]
         
        
         # print("state player is oasdjapodj: ", state.player)
         all_moves = self.env.alllegalActions(state)
-        
+       
         # print("available moves: ", self.env.alllegalActions(state))  
         if len(all_moves) != 0:
            
         #    all_moves = self.env.alllegalActions(self.env.state)
-            selected_piece = random.choice(all_moves)
+            # if state.block_come_from != []:
+            #     selected_piece = state.block_come_from
+            # elif state.block_must_go_to != []:
+            #     if len(state.block_must_go_to[1]) > 1:
+            #         selected_piece = state.block_must_go_to
+            #         selected_piece[1] = random.choice(state.block_must_go_to[1])
+            #     else:
+            #         selected_piece = state.block_must_go_to
+            # else:
+            if state.Isblocked:
+                selected_piece= random.choice(state.block_come_from)
+            else:
+                selected_piece = random.choice(all_moves)
             
             # print('selected piece: ', selected_piece)
         # for i in range(len(all_moves)):
@@ -40,6 +53,7 @@ class Random_Agent:
             # print('all moves of the moves are: ', all_moves)
             # print(f'selected action {selected_piece[0]} -> {selected_piece[1]}')
             # print('player is: ', self.player)
+            
             return selected_piece[0], selected_piece[1]
             # if self.env.legal(state, selected_piece[0], selected_piece[1]):
             #   print(f'selected action {selected_piece[0]} -> {selected_piece[1]}')
@@ -50,7 +64,7 @@ class Random_Agent:
         if self.env.avmoves == []:
             # print('player is: ', self.player)
             # time.sleep(10)
-            return ((-2,-2),(-2,-2))
+            return [-2,-2, -2,-2]
         return None
         # while all_moves != []:
         #      selected_piece = random.choice(all_moves)

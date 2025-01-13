@@ -17,6 +17,7 @@ class Tester:
         player2_win = 0
         draw = 0 
         games = 0
+        
         while games < games_num:
             state = env.state
             player = self.player1
@@ -32,7 +33,7 @@ class Tester:
                 end = env.end_of_game(state,player=player)
                 
             if env.end_of_game(state, player = player):
-                score = state.win
+                score = end[1]
                 # if step:
                 #     score = env.winSum(state=state)
                 if score > 0:
@@ -44,7 +45,7 @@ class Tester:
                 state = env.set_init_state()
                 games += 1
                 player = self.player1
-                print(games)
+                print(games, end="\r")
         return player1_win, player2_win, draw        
 
     def switchPlayers(self, player):
@@ -57,13 +58,18 @@ class Tester:
         return self.test(games_num)
 
 if __name__ == '__main__':
-    env = Checkerss()
-    env.set_init_state()
-    player1 = Random_Agent(env=env, player=1)
-    player2 = DQN_Agent(env=env, player=-1)
-    test = Tester(env,player1, player2)
-    print(test.test(100))
-    player1 = DQN_Agent(env=env, player=1)
-    player2 = Random_Agent(env=env, player=-1)
-    test = Tester(env,player1, player2)
-    print(test.test(100))
+   
+    # path = "Data\DQN_PARAM_30KK.pth"
+    # player1 = Random_Agent(env=env, player=1)
+    # player2 = DQN_Agent(env=env, player=-1,)
+    # test = Tester(env,player1, player2)
+    # print(test.test(100))
+    path = "Data\_Adam_DQN_PARAM_100K.pth"
+    # path = "Data\_SGD_DQN_PARAM_10KK.pth"
+    for i in range(10):
+        env = Checkerss()
+        env.set_init_state()    
+        player1 = DQN_Agent(env=env, player=1,parametes_path=path, train=False)
+        player2 = Random_Agent(env=env, player=-1)
+        test = Tester(env,player1, player2)
+        print(test.test(100))

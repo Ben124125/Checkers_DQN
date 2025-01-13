@@ -101,7 +101,7 @@ class Graphics:
         
         if state.player > 0:
           self.write('                                  turn is: Black' )
-          if env.must_eat(state):  
+          if env.must_eat(state) or env.must_eat_king(state):  
             self.write_below(' black u must eat white')
         #   elif action != None and not env.legal(state,action[0], action[1]):
         #     self.write_below('gud action')    
@@ -109,7 +109,7 @@ class Graphics:
         #       self.write_below('illegel action')  
         elif state.player < 0:
           self.write('                                  turn is: White' )  
-          if env.must_eat(state):  
+          if env.must_eat(state) or env.must_eat_king(state):  
             self.write_below(' white u must eat black')  
         #   elif action != None and not env.legal(state,action[0], action[1]):
         #     self.write_below('gud action')  

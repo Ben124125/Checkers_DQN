@@ -16,7 +16,7 @@ C = 300
 batch = 64
 learning_rate = 0.01
 # Min_buffer = 1000
-path = "Data\DQN_PARAM_30K.pth"
+path = "Data\DQN_PARAM_35K.pth"
 # graphics = Graphics()
 
 def main ():
@@ -62,20 +62,22 @@ def main ():
             step += 1
             # print("\t\n state: \n", state.board)
             action = player1.get_action(state=state, epoch=epoch, train=True)
-            after_state, reward = env.next_state(state, action)
+            after_state, reward1 = env.next_state(state, action)
             done, win = env.end_of_game(state=after_state, player=player1)
             if done or step > 74:
                 if step:
                     win = env.winSum(state=state)
                 graphics.draw(state)    
-                replay.push(state, action, reward, after_state, done)
+                replay.push(state, action, reward1, after_state, done)
                 break
             time.sleep(1)
             # graphics.draw_header(after_state, env, action)
             graphics(after_state)
             after_action = player2.get_action(state=after_state, epoch=epoch)
-            next_state, reward = env.next_state(after_state, after_action)
+            next_state, reward2 = env.next_state(after_state, after_action)
             done, win = env.end_of_game(state=after_state, player=player1)
+            reward = reward1 + reward2
+            print(reward)
             replay.push(state, action, reward, next_state, done)
             state = next_state
             time.sleep(1)

@@ -19,8 +19,9 @@ class Human_Agent:
     def get_action (self, events, state = None):
         
         if state.blocked:
-            print("legal moves blocked: ", self.env.alllegalActions(state))
-            return ((-1, -1), (-1, -1))
+            # print("legal moves blocked: ", self.env.alllegalActions(state))
+            # state.legal_actions = ((-1, -1), (-1, -1))
+            return [(-1, -1), (-1, -1)]
          
 
         if  self.countnum == 0:
@@ -28,7 +29,7 @@ class Human_Agent:
                 # print("available moves: ", self.env.alllegalActions(state))
                 self.countnum = 1
                 if self.env.avmoves == []:
-                    return ((-2,-2),(-2,-2))   
+                    return [(-2,-2), (-2,-2)] 
         for event in events:
             # if event.type == pygame.MOUSEMOTION and self.countnum == 0:
             #     #print("av av av av moves: ", self.env.alllegalActions(state))
@@ -50,7 +51,7 @@ class Human_Agent:
                 # print('state player human agent is: ', state.player)
                 # print('state legal actions: ', self.env.alllegalActions(state))  
                 if self.mode == 1:
-                    print("legal moves: ", self.env.alllegalActions(state))
+                    # print("legal moves: ", self.env.alllegalActions(state))
                     if (state.board[row_col]  > 0 and self.player > 0) or (state.board[row_col]<0 and self.player <0):
                         self.FROM = row_col
                         self.mode = 2
@@ -59,7 +60,7 @@ class Human_Agent:
                     return None
 
                 if self.mode == 2:
-                    print('state player human agent is: ', state.player)
+                    # print('state player human agent is: ', state.player)
                     # print('state legal actions: ', self.env.alllegalActions(state))  
                     # print('state legal actions: ', self.env.alllegalActions(state))  
                     # print("available moves: ", )  

@@ -14,15 +14,23 @@ p = [True,False,False,True]
 o = torch.tensor(p)
 print(o)
 
-x = (1,2)
-y = (1,2)
+# x = (1,2)
+# y = (1,2)
 
-if x == y:
-    print('true')
+# if x == y:
+#     print('true')
 
-gh = [(1,2)]
+# gh = [(1,2)]
 
-if gh != []:
-    print('gsa')
+# if gh != []:
+#     print('gsa')
+q = 2
+print('ad' + q)
 
+# def lol(s = 5):
+#     print(s)
+# print(lol(4))
 #test test
+
+
+print(round(619 / 10))

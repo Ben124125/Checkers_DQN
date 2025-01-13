@@ -1,0 +1,16 @@
+{"time":"2025-01-04T00:26:06.2659903+02:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-04T00:26:06.2659903+02:00","level":"INFO","msg":"created symlink","path":"D:\\Checkers_Random\\pygame1_n2\\wandb\\run-20250104_002606-Checkers 4\\logs\\debug-core.log"}
+{"time":"2025-01-04T00:26:06.6295575+02:00","level":"INFO","msg":"created new stream","id":"Checkers 4"}
+{"time":"2025-01-04T00:26:06.6295575+02:00","level":"INFO","msg":"stream: started","id":"Checkers 4"}
+{"time":"2025-01-04T00:26:06.6295575+02:00","level":"INFO","msg":"sender: started","stream_id":"Checkers 4"}
+{"time":"2025-01-04T00:26:06.6295575+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"Checkers 4"}
+{"time":"2025-01-04T00:26:06.6295575+02:00","level":"INFO","msg":"handler: started","stream_id":"Checkers 4"}
+{"time":"2025-01-04T00:26:06.9816615+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-04T00:26:41.7851999+02:00","level":"INFO","msg":"stream: closing","id":"Checkers 4"}
+{"time":"2025-01-04T00:26:41.7851999+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-04T00:26:41.7862588+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-04T00:26:42.6971946+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-04T00:26:43.2188538+02:00","level":"INFO","msg":"handler: closed","stream_id":"Checkers 4"}
+{"time":"2025-01-04T00:26:43.2188538+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"Checkers 4"}
+{"time":"2025-01-04T00:26:43.2188538+02:00","level":"INFO","msg":"sender: closed","stream_id":"Checkers 4"}
+{"time":"2025-01-04T00:26:43.2320006+02:00","level":"INFO","msg":"stream: closed","id":"Checkers 4"}

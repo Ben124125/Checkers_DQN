@@ -1,0 +1,8 @@
+{"time":"2025-01-10T15:28:27.9186343+02:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-10T15:28:27.9186343+02:00","level":"INFO","msg":"created symlink","path":"D:\\Checkers_Random\\pygame1_n2\\wandb\\run-20250110_152827-Checkers 6\\logs\\debug-core.log"}
+{"time":"2025-01-10T15:28:28.2833346+02:00","level":"INFO","msg":"created new stream","id":"Checkers 6"}
+{"time":"2025-01-10T15:28:28.2833346+02:00","level":"INFO","msg":"handler: started","stream_id":"Checkers 6"}
+{"time":"2025-01-10T15:28:28.2833346+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"Checkers 6"}
+{"time":"2025-01-10T15:28:28.2833346+02:00","level":"INFO","msg":"sender: started","stream_id":"Checkers 6"}
+{"time":"2025-01-10T15:28:28.2833346+02:00","level":"INFO","msg":"stream: started","id":"Checkers 6"}
+{"time":"2025-01-10T15:28:28.7250264+02:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,3 +1,79 @@
+Checkerss:
+       added must eat for kings, fixed duble eat, chabged duble eat rules.
+       fixed end of game
+       changed rewards --> 100 if won / -100 if lose, 5 if eat without him eating me, and -3 if i eat and then he eats.
+       added new king functions.
+
+Trainer:
+
+       changed lr ---> 0.00001 instead of 0.1
+       changed to Adam instead of SGD, SGD name not rlly SGD but Adam was in charge.
+
+
+State: 
+
+       added proper copy.
+
+Tester:
+
+       works.
+
+DQN_Agent:
+       changed the if train, cuz if blocked i force him to chose [(-1,-1),(-1,-1)]
+
+Human + Random + DQN:
+       return [-2,-2,-2,-2] if game ended and not [(-2,-2), (-2,-2)]
+
+Graphics:
+       changed msg poping if king must eat than show it.
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 array([[ 0.,  1.,  0.,  1.,  0.,  1.,  0., -1.],
        [ 0.,  0.,  1.,  0.,  1.,  0.,  1.,  0.],
        [ 0.,  0.,  0.,  1.,  0.,  1.,  0., -1.],

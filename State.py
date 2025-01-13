@@ -22,7 +22,15 @@ class State:
         # self.moves = 0
 
 
-    
+    def copy (self):
+        newBoard = np.copy(self.board)
+        newState = State(board=newBoard, player=self.player, legal_actions=self.legal_actions)
+        newState.blocked = self.blocked
+        newState.Isblocked = self.Isblocked
+        newState.block_come_from = self.block_come_from
+        newState.block_must_go_to = self.block_must_go_to
+        newState.win = self.win
+        return newState
     def toTensor (self, device = torch.device('cpu')):
         board_np = self.board.reshape(-1)
         board_tensor = torch.tensor(board_np, dtype=torch.float32, device=device)
@@ -36,9 +44,7 @@ class State:
         actions = list(map(list, actions))
         return State(board, actions, player)
     
-    def copy (self):
-        newBoard = np.copy(self.board)
-        return State(board=newBoard, player=self.player)
+   
     def switch_players (self):
         if self.player > 0:
             self.player = -1
