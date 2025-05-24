@@ -1,0 +1,49 @@
+{"time":"2025-03-04T23:37:31.9246939+02:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-03-04T23:37:31.9246939+02:00","level":"INFO","msg":"created symlink","path":"D:\\Checkers_Random\\pygame1_n2\\wandb\\run-20250304_233731-Checkers 1 Black\\logs\\debug-core.log"}
+{"time":"2025-03-04T23:37:32.4576523+02:00","level":"INFO","msg":"created new stream","id":"Checkers 1 Black"}
+{"time":"2025-03-04T23:37:32.4576523+02:00","level":"INFO","msg":"stream: started","id":"Checkers 1 Black"}
+{"time":"2025-03-04T23:37:32.4581628+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"Checkers 1 Black"}
+{"time":"2025-03-04T23:37:32.4576523+02:00","level":"INFO","msg":"handler: started","stream_id":"Checkers 1 Black"}
+{"time":"2025-03-04T23:37:32.4581628+02:00","level":"INFO","msg":"sender: started","stream_id":"Checkers 1 Black"}
+{"time":"2025-03-04T23:37:32.9086106+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T02:19:53.4963935+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:20:25.641134+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:21:54.3538128+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:22:09.835766+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-03-05T02:22:26.6592934+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:23:01.3369877+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:23:55.4508583+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:24:18.2160926+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:24:27.7591725+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:25:41.4381701+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-05T02:26:13.4992247+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-05T02:26:48.1722209+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:27:26.7971663+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:28:13.3506575+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:28:32.3718464+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:29:12.3906216+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:29:22.0942405+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:29:43.7967028+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:30:15.8627241+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-05T02:30:38.2101586+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-03-05T02:30:50.8377652+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:31:30.2903906+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:31:42.1943312+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:32:20.1002857+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-05T02:32:50.6354785+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:33:36.032285+02:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-03-05T02:34:01.3367988+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:34:33.6221551+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-05T02:34:46.4609337+02:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-03-05T02:35:08.0555361+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:35:47.7118932+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-05T02:36:34.1482299+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-05T02:54:07.8357997+02:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/benbraverman11-github/Checkers/Checkers%201%20Black/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-03-05T04:42:59.4467079+02:00","level":"INFO","msg":"stream: closing","id":"Checkers 1 Black"}
+{"time":"2025-03-05T04:42:59.4467079+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T04:42:59.4480151+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T04:43:00.608052+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T04:43:00.9301782+02:00","level":"INFO","msg":"handler: closed","stream_id":"Checkers 1 Black"}
+{"time":"2025-03-05T04:43:00.9301782+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"Checkers 1 Black"}
+{"time":"2025-03-05T04:43:00.9312906+02:00","level":"INFO","msg":"sender: closed","stream_id":"Checkers 1 Black"}
+{"time":"2025-03-05T04:43:00.9697027+02:00","level":"INFO","msg":"stream: closed","id":"Checkers 1 Black"}

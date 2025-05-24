@@ -28,19 +28,18 @@ class DQN (nn.Module):
     def forward (self, x):
         x = self.linear1(x)
         x = F.relu(x)
-        # print('output size x:ashgdaskdhgaskudhaskjdhaskjdhaskjdahnsdkjahsjdkashd: ', x)
+
         x = self.linear2(x)
         x = F.relu(x)
-        # print('output size x:ashgdaskdhgaskudhaskjdhaskjdhaskjdahnsdkjahsjdkashd: ', x)
+
         x = self.output(x)
-        # print('output size x:ashgdaskdhgaskudhaskjdhaskjdhaskjdahnsdkjahsjdkashd: ', x)
+
         return x
     
     def load_params(self, path):
         self.load_state_dict(torch.load(path))
 
     def save_params(self, path):
-        # print("state.dict is: ", self.state_dict())
         torch.save(self.state_dict(), path)
 
     def copy (self):

@@ -1,0 +1,8 @@
+{"time":"2025-04-26T00:02:53.3721436+03:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-04-26T00:02:53.3727022+03:00","level":"INFO","msg":"created symlink","path":"D:\\Checkers_Random\\pygame1_n2\\wandb\\run-20250426_000253-Checkers 100k Black f\\logs\\debug-core.log"}
+{"time":"2025-04-26T00:02:53.8320049+03:00","level":"INFO","msg":"created new stream","id":"Checkers 100k Black f"}
+{"time":"2025-04-26T00:02:53.8320049+03:00","level":"INFO","msg":"stream: started","id":"Checkers 100k Black f"}
+{"time":"2025-04-26T00:02:53.8320049+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"Checkers 100k Black f"}
+{"time":"2025-04-26T00:02:53.8320049+03:00","level":"INFO","msg":"sender: started","stream_id":"Checkers 100k Black f"}
+{"time":"2025-04-26T00:02:53.8320049+03:00","level":"INFO","msg":"handler: started","stream_id":"Checkers 100k Black f"}
+{"time":"2025-04-26T00:02:54.2571327+03:00","level":"INFO","msg":"Starting system monitor"}

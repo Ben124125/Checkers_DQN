@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.19.1
+        m: []
+        python_version: 3.11.4
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 14
+                - 16
+                - 23
+                - 55
+            "4": 3.11.4
+            "5": 0.19.1
+            "8":
+                - 3
+                - 5
+            "12": 0.19.1
+            "13": windows-amd64
+C:
+    value: 200
+Schedule:
+    value: 5000, 10000, 15000 gamma=0.99
+architecture:
+    value: FNN 128, 258, 512, 128, 64, 4
+batch_size:
+    value: 64
+checkpoint:
+    value: Data\_Adam_DQN_PARAM_100K_White.pth
+decay:
+    value: 5000
+epochs:
+    value: 100000
+gamma:
+    value: 0.99
+learning_rate:
+    value: 1e-05
+name:
+    value: Checkers 1
+start_epoch:
+    value: 1

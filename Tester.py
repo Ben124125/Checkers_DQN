@@ -12,7 +12,6 @@ class Tester:
 
     def test (self, games_num):
         env = self.env
-        # player = self.player1
         player1_win = 0
         player2_win = 0
         draw = 0 
@@ -22,25 +21,22 @@ class Tester:
             state = env.state
             player = self.player1
             step = 0
-            # while env.end_of_game(state,player=player) and step < 75:
-            end = env.end_of_game(state,player=player)
+            end = env.end_of_game(state)
             while end[0] == False:
                 action = player.get_action(state=state, train = False)
-                # env.move(action)
-                state,_ = env.next_state(state,action)
+                state,_ = env.next_state(state,action, player_Train = 0)
                 player = self.switchPlayers(player)
                 step += 1
-                end = env.end_of_game(state,player=player)
+                end = env.end_of_game(state)
                 
-            if env.end_of_game(state, player = player):
+            if env.end_of_game(state):
                 score = end[1]
-                # if step:
-                #     score = env.winSum(state=state)
                 if score > 0:
                     player1_win += 1
                 elif score < 0:
                     player2_win += 1
                 else:
+                    end = env.end_of_game(state)
                     draw += 1
                 state = env.set_init_state()
                 games += 1
@@ -58,15 +54,20 @@ class Tester:
         return self.test(games_num)
 
 if __name__ == '__main__':
-   
-    # path = "Data\DQN_PARAM_30KK.pth"
-    # player1 = Random_Agent(env=env, player=1)
-    # player2 = DQN_Agent(env=env, player=-1,)
-    # test = Tester(env,player1, player2)
-    # print(test.test(100))
-    path = "Data\_Adam_DQN_PARAM_100K.pth"
-    # path = "Data\_SGD_DQN_PARAM_10KK.pth"
-    for i in range(10):
+    # path = 'Data\_Adam_DQN_PARAM_50K_Black_LR2.pth'
+    path= "Data\_Adam_DQN_PARAM_50K_Black_f3.pth"
+    path2 = "Data\_Adam_DQN_PARAM_50K_White_f3.pth"
+    
+    print('----------------------------------------------------------')
+    for i in range(5): # test white
+        env = Checkerss()
+        env.set_init_state()
+        player1 = Random_Agent(env=env, player=1)
+        player2 = DQN_Agent(env=env, player=-1,parametes_path =path2, train=False)
+        test = Tester(env,player1, player2)
+        print(test.test(100))
+
+    for i in range(5):  # test black
         env = Checkerss()
         env.set_init_state()    
         player1 = DQN_Agent(env=env, player=1,parametes_path=path, train=False)

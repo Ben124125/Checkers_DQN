@@ -12,14 +12,11 @@ class State:
         self.legal_actions = legal_actions
         self.end_of_game = 0  
         self.blocked = False 
-        self.blocked_next = 0 #
+        self.blocked_next = False #
         self.Isblocked = False  
         self.block_must_go_to =[]
         self.block_come_from = []
-        self.eat = False
-        self.win = 0
-        self.eat_num = 0 # change the bool
-        # self.moves = 0
+        self.eat_num = 0 # change the bool # count how many eats for the reward
 
 
     def copy (self):
@@ -29,8 +26,9 @@ class State:
         newState.Isblocked = self.Isblocked
         newState.block_come_from = self.block_come_from
         newState.block_must_go_to = self.block_must_go_to
-        newState.win = self.win
+        newState.blocked_next = self.blocked_next
         return newState
+    
     def toTensor (self, device = torch.device('cpu')):
         board_np = self.board.reshape(-1)
         board_tensor = torch.tensor(board_np, dtype=torch.float32, device=device)
@@ -51,8 +49,6 @@ class State:
         else:
             self.player = 1
 
-    # def score (self):
-    #     return self.board.sum()
     def init_board(self):
         board = np.zeros((ROWS,COLS))
         for row in range(ROWS):
@@ -62,24 +58,5 @@ class State:
                         board[row,col] = -1
                     elif row > 4:    
                         board[row,col] = 1
-        # board[0,5] = -1
-        # board[0,7] = -1
-        # board[1,4] = -1
-        # board[1,6] = -1
-        # board[2,5] = -1
-        # board[2,7] = -1
-
-
-        # board[2,1] = 1
-        # board[3,4] = 1
-        # board[3,0] = 1
-        # board[4,3] = 1
-        # board[4,7] = 1
-        # board[5,6] = 1
-        # board[6,5] = 1
-        # board[7,2] = 1
-        # board[7,4] = 1
-
-        # print(board)                
         return board    
     

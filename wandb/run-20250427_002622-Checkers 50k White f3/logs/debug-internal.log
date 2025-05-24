@@ -1,0 +1,16 @@
+{"time":"2025-04-27T00:26:22.4336877+03:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-04-27T00:26:22.4336877+03:00","level":"INFO","msg":"created symlink","path":"D:\\Checkers_Random\\pygame1_n2\\wandb\\run-20250427_002622-Checkers 50k White f3\\logs\\debug-core.log"}
+{"time":"2025-04-27T00:26:22.5459253+03:00","level":"INFO","msg":"created new stream","id":"Checkers 50k White f3"}
+{"time":"2025-04-27T00:26:22.5459253+03:00","level":"INFO","msg":"stream: started","id":"Checkers 50k White f3"}
+{"time":"2025-04-27T00:26:22.5459253+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"Checkers 50k White f3"}
+{"time":"2025-04-27T00:26:22.5459253+03:00","level":"INFO","msg":"handler: started","stream_id":"Checkers 50k White f3"}
+{"time":"2025-04-27T00:26:22.5459253+03:00","level":"INFO","msg":"sender: started","stream_id":"Checkers 50k White f3"}
+{"time":"2025-04-27T00:26:22.9715476+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T04:05:22.0724586+03:00","level":"INFO","msg":"stream: closing","id":"Checkers 50k White f3"}
+{"time":"2025-04-27T04:05:22.0724586+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T04:05:22.0729617+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T04:05:23.5452529+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T04:05:23.8592425+03:00","level":"INFO","msg":"handler: closed","stream_id":"Checkers 50k White f3"}
+{"time":"2025-04-27T04:05:23.8592425+03:00","level":"INFO","msg":"sender: closed","stream_id":"Checkers 50k White f3"}
+{"time":"2025-04-27T04:05:23.8592425+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"Checkers 50k White f3"}
+{"time":"2025-04-27T04:05:23.8751905+03:00","level":"INFO","msg":"stream: closed","id":"Checkers 50k White f3"}

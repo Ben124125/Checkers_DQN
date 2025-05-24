@@ -1,0 +1,8 @@
+{"time":"2025-05-23T16:37:17.4201239+03:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-05-23T16:37:17.4201239+03:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\בן\\Downloads\\pygame1_last_version\\pygame1_n2\\wandb\\run-20250523_163717-Checkers 50k Black LR\\logs\\debug-core.log"}
+{"time":"2025-05-23T16:37:17.9453669+03:00","level":"INFO","msg":"created new stream","id":"Checkers 50k Black LR"}
+{"time":"2025-05-23T16:37:17.9453669+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"Checkers 50k Black LR"}
+{"time":"2025-05-23T16:37:17.9453669+03:00","level":"INFO","msg":"stream: started","id":"Checkers 50k Black LR"}
+{"time":"2025-05-23T16:37:17.9458871+03:00","level":"INFO","msg":"sender: started","stream_id":"Checkers 50k Black LR"}
+{"time":"2025-05-23T16:37:17.9453669+03:00","level":"INFO","msg":"handler: started","stream_id":"Checkers 50k Black LR"}
+{"time":"2025-05-23T16:37:18.3993969+03:00","level":"INFO","msg":"Starting system monitor"}
